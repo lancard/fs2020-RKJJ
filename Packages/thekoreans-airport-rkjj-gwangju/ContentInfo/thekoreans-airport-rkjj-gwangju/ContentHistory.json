@@ -1,0 +1,10 @@
+{
+  "package-name": "thekoreans-airport-rkjj-gwangju",
+  "items": [
+    {
+      "type": "Airport",
+      "content": "RKJJ",
+      "revision": 1
+    }
+  ]
+}
