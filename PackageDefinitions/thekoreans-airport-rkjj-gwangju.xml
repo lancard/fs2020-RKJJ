@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>RKJJ - Gwangju airport</Title>
+		<Manufacturer/>
+		<Creator>Sungho Kim</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\thekoreans-airport-rkjj-gwangju\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\thekoreans-airport-rkjj-gwangju\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymateriallibs">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-rkjj-gwangju\materiallibs\</AssetDir>
+			<OutputDir>MaterialLibs\airport-rkjj-gwangju\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymodellib">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-rkjj-gwangju\modellib\</AssetDir>
+			<OutputDir>Scenery\airport-rkjj-gwangju\modellib\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-rkjj-gwangju\scenery\</AssetDir>
+			<OutputDir>Scenery\airport-rkjj-gwangju\scenery\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
