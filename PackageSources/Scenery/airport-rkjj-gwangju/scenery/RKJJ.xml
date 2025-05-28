@@ -4,8 +4,17 @@
 	<SceneryObject lat="35.13987984795376" lon="126.81090439520059" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="-58.602586" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{DFF736D5-D1CA-46F7-9716-E23820EFC4A6}" scale="1.000000"/>
 	</SceneryObject>
-	<Rectangle groupIndex="1" width="72.382812" falloff="500.000000" surface="{6C0C6528-5CF1-483A-A586-2C905CF2757E}" priority="0" precision="TRUE" latitude="35.13948503539162" longitude="126.81069746017015" altitude="17.60507517959923" latitude2="35.14020335161349" longitude2="126.81124532784999" altitude2="17.60486472770572"/>
-	<Airport displayName="Gwangju airport" groupIndex="2" groupID="1" groupGenerated="FALSE" name="Gwangju airport" ident="RKJJ" lat="35.12638896703720" lon="126.80888906121254" alt="13.79200000000000" magvar="6.600000" trafficScalar="0.698039" airportTestRadius="8000.00000000000000" applyFlatten="TRUE" isOnTIN="FALSE" tinColorCorrection="TRUE" starAirport="TRUE">
+	<Polygon displayName="no vegetation" groupIndex="1" altitude="13.47268492040036">
+		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{22DD6476-AFCF-402C-9489-A8EC4D0466BC}"/>
+		<Attribute name="VegetationScale" guid="{6A043F59-E6F2-4117-A2E4-D510E7317C29}" type="UINT32" value="0"/>
+		<Attribute name="VegetationDensity" guid="{41EFF715-C392-4B31-A457-50A504353A90}" type="UINT32" value="0"/>
+		<Vertex lat="35.11456012974420" lon="126.79010107916220"/>
+		<Vertex lat="35.11086467112936" lon="126.80225238791505"/>
+		<Vertex lat="35.13888178800405" lon="126.82168711991100"/>
+		<Vertex lat="35.14338795421236" lon="126.81040875908907"/>
+	</Polygon>
+	<Rectangle groupIndex="2" width="72.382812" falloff="500.000000" surface="{6C0C6528-5CF1-483A-A586-2C905CF2757E}" priority="0" precision="TRUE" latitude="35.13948503539162" longitude="126.81069746017015" altitude="17.60507517959923" latitude2="35.14020335161349" longitude2="126.81124532784999" altitude2="17.60486472770572"/>
+	<Airport displayName="Gwangju airport" groupIndex="3" groupID="1" groupGenerated="FALSE" name="Gwangju airport" ident="RKJJ" lat="35.12638896703720" lon="126.80888906121254" alt="13.79200000000000" magvar="6.600000" trafficScalar="0.698039" airportTestRadius="8000.00000000000000" applyFlatten="TRUE" isOnTIN="FALSE" tinColorCorrection="TRUE" starAirport="TRUE">
 		<TaxiwayPoint parentGroupID="1" groupIndex="55" index="0" type="NORMAL" orientation="FORWARD" lat="35.11564068496227" lon="126.80021926760674"/>
 		<TaxiwayPoint parentGroupID="1" groupIndex="71" index="1" type="NORMAL" orientation="FORWARD" lat="35.11653151363134" lon="126.80083796381950"/>
 		<TaxiwayPoint parentGroupID="1" groupIndex="144" index="2" type="NORMAL" orientation="FORWARD" lat="35.12277133762836" lon="126.80520951747894"/>
@@ -1164,7 +1173,7 @@
 			<RunwayStart end="PRIMARY" lat="35.11501070111990" lon="126.80222868919373" alt="13.63900000000000" heading="29.79323196411133"/>
 			<RunwayStart end="SECONDARY" lat="35.13666819781065" lon="126.81739389896393" alt="13.63900000000000" heading="209.79322814941406"/>
 		</Runway>
-		<Tower parentGroupID="1" groupIndex="1456" lat="35.12781256799295" lon="126.80328665208334" alt="13.87847376277314"/>
+		<Tower parentGroupID="1" groupIndex="1456" lat="35.12781256799295" lon="126.80328665208334" alt="16.81520480844017"/>
 		<Aprons>
 			<Apron parentGroupID="1" groupIndex="1191" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" drawSurface="TRUE" drawDetail="TRUE" localUV="FALSE" stretchUV="FALSE" flipUV="FALSE" priority="0" tiling="25.000000" heading="0.000000" falloff="-1.000000" opacity="255" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE" isRectangle="FALSE">
 				<Coloration red="109" green="109" blue="109" alpha="255"/>
